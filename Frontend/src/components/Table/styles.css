@@ -1,0 +1,32 @@
+.table-container {
+  margin-top: 50px;
+}
+
+.table-container td, tr {
+  text-align: center;
+}
+
+.content-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 40px;
+}
+
+.content-actions svg {
+  width: 22px;
+  height: 22px;
+}
+
+.content-actions svg:hover {
+  color: #ccc;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.2s linear;
+}
+
+.button-new {
+  margin: auto;
+  float: right;
+}
