@@ -5,6 +5,7 @@ import Table from '../../components/Table';
 
 function CreateProducts() {
   return (
+    // Fragment é a mesma coisa que <></>
     <Fragment>
       <Container>
         <NavBar />

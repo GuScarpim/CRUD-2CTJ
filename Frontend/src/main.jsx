@@ -9,6 +9,7 @@ import CreateProducts from './pages/CreateProducts';
 
 import './index.css';
 
+// Criando roteamento para rotas do react
 const router = createBrowserRouter([
   {
     path: "/",

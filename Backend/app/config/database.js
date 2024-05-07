@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const connectionString = ''; // Substitua por sua string de conexão
+const connectionString = ''; // Sua URL DO MONGODB
 
 mongoose.connect(connectionString, {
   useNewUrlParser: true,
